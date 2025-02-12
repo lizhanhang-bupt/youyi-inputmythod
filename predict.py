@@ -90,4 +90,3 @@ def train(model, train_loader, epochs=3, learning_rate=5e-5):
 train(model, train_loader, epochs=8)
 model.save_pretrained('./finetuned_bert')
 tokenizer.save_pretrained('./finetuned_bert')
-
